@@ -1,25 +1,80 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
 }
 
-h2{
+h2 {
   font-family: "Big Shoulders", sans-serif;
 }
 
-
-.container{
+.container {
   background-color: hsl(0, 0%, 95%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 50px 30px;
 }
+
+.sub-container {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.sub-container > div{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+  padding: 40px;
+}
+
+
+
+.sub-container > div:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sub-container > div:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.sub-container > div:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+
+.title{
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+.description{
+  color: hsla(0, 0%, 100%, 0.75);
+  /* width: 80%; */
+}
+
+.btn{
+  background-color: hsl(0, 0%, 95%);
+  /* margin-bottom: 10px; */
+  justify-self: start;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+img{
+  width: 50px;
+}
+
+
+
 
