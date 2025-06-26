@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Sulemank-1/frontend-mentor-challenges/tree/main/product-preview-card-component)
+- Solution URL: [Solution](https://github.com/Sulemank-1/frontend-mentor-challenges/tree/main/product-preview-card-component)
 
 ## My process
 
