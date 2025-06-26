@@ -18,14 +18,14 @@ h2 {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  padding: 50px 30px;
+  padding: 3.125rem 1.875rem;
 }
 
 .sub-container {
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  max-width: min(920px, 90vw);
+  max-width: 750px;
   width: 100%;
   overflow: hidden;
 }
