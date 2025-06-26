@@ -17,3 +17,9 @@ body{
   place-content: center;
 }
 
+main{
+  min-height: 500px;
+  max-width: 500px;
+  border-radius: 7px;
+}
+
