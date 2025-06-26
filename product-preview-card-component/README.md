@@ -25,6 +25,7 @@ Users should be able to:
 
 ![](./images/Frontend%20Mentor%20-%20Product%20preview%20card%20component%20-%20Desktop%20View.png)
 
+![](./images/Frontend%20Mentor%20-%20Product%20preview%20card%20component%20-%20Mobile%20View.png)
 
 ### Links
 
